@@ -16,9 +16,10 @@ export default {
     onMounted(() => console.log("Component mounted"))
     onUnmounted(() => console.log("Component unmounted"))
     onUpdated(() => console.log("Component updated"))
-
-
   },
+  mounted() {
+    console.log("Mounted using options api");
+  }
 };
 </script>
 
